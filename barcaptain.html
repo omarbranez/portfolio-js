@@ -6,6 +6,11 @@
             <link href="layout-styles.css" rel="stylesheet" type="text/css">
     </head>
     <body style="background-image: url('background-corgi-barcaptain.jpg');">
+<script type="text/javascript">
+  function resizeIframe(iframe) {
+    iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
+  }
+</script> 
         <h1 style="text-align: center;">Bar Captain</h1>
         <h2 style="text-align: center; text-size: 36;">Want to know what you can make with your liquor collection?</h2>
 
@@ -13,6 +18,11 @@
             <li>Add products to your collection</li>
             <li>See what drinks you can make with those products</li>
         </ul>
+        <div>
+<iframe style="min-width:60vh" src="https://bar-captain.herokuapp.com" height="400"></iframe>
+        </div>
+
+
 
         <script src="./index.js"></script>
     </body>
