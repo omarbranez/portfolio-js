@@ -13,10 +13,11 @@ body {
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size:14px;
   line-height:1.428571429;
-  background-size: clamp(100%, 80%, 1500px) auto;
+  /* background-size: clamp(100%, 80%, 1500px) auto; */
+  /* background-size: cover; */
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1; }
 h1,.h1{font-size:45px;line-height:48px}
 h2,.h2{font-size:36px;line-height:42px}
 h3,.h3{font-size:28px;line-height:36px}
@@ -184,4 +185,21 @@ button, input, select, textarea {
   color: white;
 }
 
+/* .main { */
+  /* position: relative; */
+  /* width: 100%; */
+  /* background-size: cover; */
+  /* z-index: -1; */
+   /* pointer-events: none; */
+/* } */
 /* background-size: clamp(1000px, 80%, 1500px) auto; */
+.svg-container { 
+	/* display: inline-block; */
+	position: relative;
+	width: 100%;
+  height: auto;
+  /* height: 100vh; */
+	/* padding-bottom: 100%;  */
+	vertical-align: middle; 
+	overflow: hidden; 
+}
